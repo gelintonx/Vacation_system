@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+/*Default styles*/
+body{
+    height: 200px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    background-image: url('../img/work.jpg')
+     
+}
+
+/*Login*/
+#welcome{
+    color: #ffffff;
+    position: relative;
+    top: 70px;
+    border: 5px solid white;
+    background-color: #d2d1cc;
+}
+
+#content-login{
+    color:#ffffff;
+    border: 5px solid white;
+    position: relative;
+    top: 200px;
+    left: 90px;
+    width: 600px;
+    height: 400px;
+}
+
+#content-header{
+    padding: 5px;
+    background-color: #d2d1cc;
+    
+}
+
+#content-body{
+    color: #000000;
+    background-color: #ffffff;
+    width: 600px;
+    height: 330px;
+   
+}
+
+#form{
+    padding: 10px;
+}
+#button{
+    width: 100px;
+}
+
+#name{
+    width: 70%;
+    padding: 5px;
+}
+
+#surname{
+    width: 70%;
+    padding: 5px;
+}
+
+#user_key{
+    width: 70%;
+    padding: 5px;
+}
+
+#button{
+    width: 50%;
+    padding: 8px;
+    background-color: #d2d1cc;
+    position: relative;
+    top: 45px;
+}
+/* Register*/
+
+#content-register{
+    color: #ffffff;
+    border: 5px solid white;
+    position: relative;
+    top: -208px;
+    left: 1100px;
+    width: 600px;
+    height: 400px;
+}
+
+#content-header2{
+    padding: 5px;
+    background-color: #d2d1cc;
+}
+
+#content-body2{
+    color: #000000;
+    background-color: #ffffff;
+    width: 600px;
+    height: 330px;
+}
+
+#form2{
+    padding: 10px;
+}
+
+#name-register{
+    width: 70%;
+    padding: 5px;
+}
+
+#surname-register{
+    width: 70%;
+    padding: 5px;
+}
+
+#user_key-register{
+    width: 70%;
+    padding: 5px;
+}
+
+#antiquity{
+    width: 70%;
+    padding: 5px;
+}
+
+#button2{
+    width: 50%;
+    padding: 8px;
+    background-color: #d2d1cc;
+    position: relative;
+    top: 10px;
+}
+

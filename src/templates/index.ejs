@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacations System</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div id="welcome">
+        <h1>Welcome to our system of vacations</h1>
+    </div>
+    <div id="content-login">
+        <div id="content-header">
+            <h3>Login</h3>
+        </div>
+        <div id="content-body">
+           <form action="/login" id="form" method="POST">
+                <input type="text" name="nameLogin" id="name" placeholder="Insert your name..." autofocus><br><br>
+                <input type="text" name = "surnameLogin" id="surname" placeholder="Insert your surname..."><br><br>
+                <input type="number" name="userKeyLogin" id="user_key" placeholder="Insert your user key..."><br><br>
+                <input type="submit" id = "button" value="Send">
+           </form>
+        </div>
+        
+    </div>
+
+    <div id="content-register">
+        <div id="content-header2">
+            <h3>Register</h3>
+        </div>
+        <div id="content-body2">
+            <form action="/register" id ="form2" method="POST">
+                <input type="text" name="nameRegister" id="name-register" placeholder="Insert your name..." ><br><br>
+                <input type="text" name="surnameRegister" id="surname-register" placeholder="Insert your surname..."><br><br>
+                <input type="number" name="userKeyRegister" id="user_key-register" placeholder="Insert your user key..."><br><br>
+                <input type="number" name="antiquity" id="antiquity" placeholder="Insert your antiquity in the enterprise..."><br><br>
+                <input type="submit" id="button2" value="Send">
+            </form>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

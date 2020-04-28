@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacations System</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+        body{
+            background-color: #f7f7f7;
+            margin: 0;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        button{
+            width: 50%;
+            background-color: azure;
+            padding: 10px;
+        }
+        #return{
+            width: 500px;
+            height: 200px;
+            background-color: #ffffff;
+            text-align: center;
+            position: relative;
+            top: 200px;
+            left: 700px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="return">
+        <h1>Register successfully</h1>
+        <p>Click here to return to the home tab</p>
+        <button id = 'button'>Index</button>
+    </div>
+    
+
+<script>
+    let button = document.getElementById('button')
+    button.addEventListener('click',(e)=>{
+        e.preventDefault()
+        location.href = '/'
+    });
+</script>
+</body>
+</html>
